@@ -1,5 +1,7 @@
 pipeline {
-  agent 'docker-cloud-go'
+  agent {
+    label 'docker-cloud-go'
+  }
   tools {
     go 'go-1.12'
   }

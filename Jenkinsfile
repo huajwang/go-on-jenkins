@@ -1,5 +1,5 @@
 pipeline {
-  agent docker-cloud-go
+  agent 'docker-cloud-go'
   tools {
     go 'go-1.12'
   }
